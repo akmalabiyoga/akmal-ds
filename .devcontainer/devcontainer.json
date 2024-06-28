@@ -9,6 +9,7 @@
       ]
     }
   },
+  "postCreateCommand": "pip install -r /workspaces/subject-selection/requirements.txt",
   "postAttachCommand": {
     "server": "streamlit run streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
   },
